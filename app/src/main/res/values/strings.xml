@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">VitalNex</string>
+    <string name="header_image">Header Image</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account">Account</string>
+    <string name="room">Room</string>
+    <string name="medical">medical</string>
+    <string name="mess">mess</string>
+    <string name="ads">Ads</string>
+    <string name="home">Home</string>
+    <string name="notification">Notification</string>
+    <string name="setting">Setting</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="nitin_panazde">Nitin Panazde</string>
+    <!--    This belongs to login module-->
+    <string name="login">Login</string>
+    <string name="email">  Email</string>
+    <string name="Password">  Password</string>
+    <string name="register">Register</string>
+    <string name="mobile">  Mobile</string>
+    <string name="registerbtn">Register</string>
+    <string name="user_name">  Email</string>
+    <string name="your_service">Your Service</string>
+    <string name="logout">Logout</string>
+    <string name="Address">Address Hospital </string>
+    <string name="Contact">Contact Hospital </string>
+    <string name="Select_service">Service</string>
+    <string name="Select_Area">Area</string>
+
+    <string name="name">Name: </string>
+    <string name="address">Address:</string>
+    <string name="contact">Contact</string>
+    <string name="mail">nitinpanzade185@gmail.com</string>
+</resources>

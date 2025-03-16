@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "52367780891",
+    "firebase_url": "https://megaprojectteam-8bcd6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "megaprojectteam-8bcd6",
+    "storage_bucket": "megaprojectteam-8bcd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52367780891:android:7819cfd1e282ab4c29dcbe",
+        "android_client_info": {
+          "package_name": "com.example.capstoneproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXVtAKIN3Lmvn5tOOYHZX9J0DQBTEApko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

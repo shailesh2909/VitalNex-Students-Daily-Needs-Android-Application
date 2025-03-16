@@ -1,0 +1,285 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mess_profile">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:paddingVertical="10dp"
+        android:gravity="center"
+        android:id="@+id/serviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panchbhute \nmess"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:background="@color/mainColor"
+        android:textColor="#ffff"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/secondColor"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:textColor="@color/secondColor"
+                android:layout_marginLeft="10dp"
+                android:ems="9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2300rs"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondColor"
+                android:ems="9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amrut nagar, khamgaon"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondColor"
+                android:ems="9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567890"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owner :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/owner"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/secondColor"
+                android:ems="9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ankush Panchbhute"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working day\nin a week :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/workingdays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondColor"
+                android:ems="9"
+                android:layout_marginLeft="10dp"
+                android:text="7 days"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:textColor="@color/secondColor"
+                android:layout_height="wrap_content"
+                android:ems="9"
+                android:text="veg/nonveg"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Morning time :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/morningtime"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondColor"
+                android:text="9AM-1PM"
+                android:textSize="20sp"
+                android:ems="9"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <TextView
+                android:textColor="@color/mainColor"                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evening time :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/eveningtime"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7PM-9PM"
+                android:textColor="@color/secondColor"
+                android:ems="9"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/secondColor"/>
+
+    <ImageView
+        android:id="@+id/messimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/food"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/secondColor"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Ratings"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+        <TextView
+            android:id="@+id/average_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="4.5"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/avearge_rating_star"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+
+            app:srcCompat="@drawable/star"
+            />
+
+        <Button
+            android:id="@+id/btnFeedbackMess"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:text="Add your opinion"
+            android:layout_marginLeft="10sp"
+            android:backgroundTint="@color/mainColor"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

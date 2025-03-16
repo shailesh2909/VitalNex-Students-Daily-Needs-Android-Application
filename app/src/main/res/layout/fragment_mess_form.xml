@@ -1,0 +1,278 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="20dp">
+    <!--  TODO: Update blank fragment layout  -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text=" OwnerName"
+                android:textColor="@color/mainColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/baseline_person"/>
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:textColorHint="@color/mainColor"
+                android:background="@drawable/round"
+                android:hint="Enter your name here"
+                android:inputType="text"
+                android:padding="16dp"
+                tools:ignore="TextFields" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text=" Address"
+                android:textSize="20sp"
+                android:textColor="@color/mainColor"
+                android:drawableLeft="@drawable/baseline_add_location_24"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter your address here"
+                android:inputType="text"
+                android:padding="16dp"
+                tools:ignore="TextFields"
+                android:textColor="@color/black"
+                android:textColorHint="@color/mainColor"
+                android:background="@drawable/round"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Mobile Number"
+                android:drawableLeft="@drawable/baseline_call_24"
+                android:textSize="20sp"
+                android:textColor="@color/mainColor"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/mobNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter your mobile here"
+                android:inputType="number"
+                android:padding="16dp"
+                tools:ignore="TextFields"
+                android:textColor="@color/black"
+                android:textColorHint="@color/mainColor"
+                android:background="@drawable/round"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text=" Mess Name"
+                android:textColor="@color/mainColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/baseline_blender_24"/>
+
+            <EditText
+                android:id="@+id/mess_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textColorHint="@color/mainColor"
+                android:hint="Enter your mess name"
+                android:background="@drawable/round"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:padding="16dp"
+                tools:ignore="TextFields"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text=" Price"
+                android:textColor="@color/mainColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/baseline_attach_money_24"/>
+
+
+
+            <EditText
+                android:id="@+id/mess_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/mainColor"
+                android:hint="Enter price for one month"
+                android:background="@drawable/round"
+                android:layout_marginBottom="10dp"
+                android:inputType="number"
+                android:padding="16dp"
+                tools:ignore="TextFields"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text=" Working Day"
+                android:textColor="@color/mainColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/baseline_calendar_month_24"/>
+
+            <EditText
+                android:id="@+id/working_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:hint="Number of working day in week"
+                android:textColorHint="@color/mainColor"
+                android:background="@drawable/round"
+                android:inputType="number"
+                android:padding="16dp"
+                tools:ignore="TextFields"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text=" Category"
+                android:drawableStart="@drawable/baseline_category_24"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/mainColor"
+               />
+            <!-- Add similar TextView and EditText blocks for the remaining fields -->
+
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/veg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Vegiterain"
+                    android:textColor="@color/mainColor"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/non_veg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/mainColor"
+                    android:text=" Non-Vegiterain"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/both"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Both"
+                    android:textColor="@color/mainColor"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"/>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text=" Morning Time"
+                android:textSize="20sp"
+                android:textColor="@color/mainColor"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/baseline_watch_later_24"/>
+
+            <TimePicker
+                android:id="@+id/morning_time"
+                android:layout_marginTop="6sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#91ED94"
+                android:timePickerMode="spinner"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="6sp"
+                android:text=" Evening Time"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/mainColor"
+                android:drawableLeft="@drawable/baseline_watch_later_24"/>
+
+
+            <TimePicker
+                android:id="@+id/evening_time"
+                android:layout_marginTop="6sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#91ED94"
+                android:timePickerMode="spinner"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/imgGallery"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/imgbtn"
+                android:onClick="imgDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Click to add image"
+                android:backgroundTint="@color/secondColor"/>
+
+            <Button
+                android:id="@+id/mess_sub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="submit your information"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/secondColor"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

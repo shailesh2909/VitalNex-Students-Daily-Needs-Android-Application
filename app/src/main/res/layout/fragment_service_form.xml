@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/service_fragment"
+    android:background="@color/white">
+
+    <!-- Services Selection -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Services"
+        android:textColorHint="@color/mainColor"
+        android:textColor="@color/mainColor"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/li1"
+            android:textStyle="bold"
+            android:background="@drawable/round"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:textColor="@color/mainColor"
+            android:backgroundTint="#91ED94"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:allowClickWhenDisabled="true"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- FrameLayout Container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FrameLayout"/>
+</LinearLayout>
+</ScrollView>

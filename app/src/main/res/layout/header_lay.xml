@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/headerlay"
+    android:layout_width="match_parent"
+    android:layout_height="220sp"
+    android:gravity="bottom"
+    android:background="@color/mainColor"
+    android:padding="14dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/dlprofimg"
+        android:layout_width="56dp"
+        android:layout_height="63dp"
+        android:contentDescription="@string/header_image"
+        android:src="@drawable/outline_account_box_24"
+        tools:ignore="HardcodedText,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/dlprofname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dlprofemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

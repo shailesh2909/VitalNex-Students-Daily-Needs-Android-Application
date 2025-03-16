@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FF9800"
+    android:orientation="vertical"
+    tools:context=".Rating">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/mainColor"
+        android:text="We hope we fulfilled your needs"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:numStars="5"
+        android:progressBackgroundTint="#FFD6D6D6"
+        android:progressTint="#FFBA00"
+        android:rating="3"
+        android:secondaryProgressTint="#FFFF"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/tvRatingScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Good"
+        android:textColor="#b46617"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:hint="Tell us what you loved"
+        android:gravity="top"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/secondColor"
+       />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/mainColor"
+        android:padding="10dp"
+        android:text="Send feedback"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>

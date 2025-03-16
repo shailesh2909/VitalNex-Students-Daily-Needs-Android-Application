@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/dl_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home"
+        />
+
+
+    <item
+        android:id="@+id/dl_user_profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile" />
+
+
+
+    <item
+        android:id="@+id/dl_addService"
+        android:title="@string/your_service"
+        android:icon="@drawable/baseline_miscellaneous_services_24"/>
+
+
+    <item
+        android:id="@+id/dl_feedback"
+        android:title="@string/send_feedback"
+        android:icon="@drawable/baseline_feedback_24"/>
+
+    <item
+        android:id="@+id/dl_terms_conditions"
+        android:icon="@drawable/baseline_security_24"
+        android:title="Terms And Conditions"/>
+    <item
+        android:id="@+id/dl_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/baseline_logout_24"
+        />
+</menu>
